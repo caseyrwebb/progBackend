@@ -1,0 +1,842 @@
+<?xml version="1.0"?>
+<Status product="Cisco Codec" version="ce8.0.1.1e47efe" apiVersion="4">
+  <Audio>
+    <Input>
+      <Connectors>
+        <Microphone item="1" maxOccurrence="n">
+          <EcReferenceDelay>0</EcReferenceDelay>
+        </Microphone>
+        <Microphone item="2" maxOccurrence="n">
+          <EcReferenceDelay>0</EcReferenceDelay>
+        </Microphone>
+        <Microphone item="3" maxOccurrence="n">
+          <EcReferenceDelay>0</EcReferenceDelay>
+        </Microphone>
+        <Microphone item="4" maxOccurrence="n">
+          <EcReferenceDelay>0</EcReferenceDelay>
+        </Microphone>
+        <Microphone item="5" maxOccurrence="n">
+          <EcReferenceDelay>0</EcReferenceDelay>
+        </Microphone>
+        <Microphone item="6" maxOccurrence="n">
+          <EcReferenceDelay>0</EcReferenceDelay>
+        </Microphone>
+        <Microphone item="7" maxOccurrence="n">
+          <EcReferenceDelay>0</EcReferenceDelay>
+        </Microphone>
+        <Microphone item="8" maxOccurrence="n">
+          <EcReferenceDelay>0</EcReferenceDelay>
+        </Microphone>
+      </Connectors>
+      <LocalInput item="1" maxOccurrence="n">
+        <AGC>On</AGC>
+        <Channels>1</Channels>
+        <Connector item="1" maxOccurrence="n">Microphone.1</Connector>
+        <Connector item="2" maxOccurrence="n">Microphone.2</Connector>
+        <Connector item="3" maxOccurrence="n">Microphone.3</Connector>
+        <Connector item="4" maxOccurrence="n">Microphone.4</Connector>
+        <Connector item="5" maxOccurrence="n">Microphone.5</Connector>
+        <Connector item="6" maxOccurrence="n">Microphone.6</Connector>
+        <Connector item="7" maxOccurrence="n">Microphone.7</Connector>
+        <Connector item="8" maxOccurrence="n">Microphone.8</Connector>
+        <MixerMode>GainShared</MixerMode>
+        <Mute>Off</Mute>
+        <Name>Microphone/Line</Name>
+      </LocalInput>
+      <LocalInput item="2" maxOccurrence="n">
+        <AGC>Off</AGC>
+        <Channels>2</Channels>
+        <Connector item="9" maxOccurrence="n">Line.1</Connector>
+        <Connector item="10" maxOccurrence="n">Line.2</Connector>
+        <MixerMode>Fixed</MixerMode>
+        <Mute>Off</Mute>
+        <Name>PC input</Name>
+      </LocalInput>
+      <LocalInput item="3" maxOccurrence="n">
+        <AGC>Off</AGC>
+        <Channels>2</Channels>
+        <Connector item="11" maxOccurrence="n">Line.3</Connector>
+        <Connector item="12" maxOccurrence="n">Line.4</Connector>
+        <MixerMode>Fixed</MixerMode>
+        <Mute>Off</Mute>
+        <Name>DVD input</Name>
+      </LocalInput>
+      <LocalInput item="4" maxOccurrence="n">
+        <AGC>Off</AGC>
+        <Channels>2</Channels>
+        <Connector item="13" maxOccurrence="n">HDMI.1</Connector>
+        <Connector item="14" maxOccurrence="n">HDMI.2</Connector>
+        <Connector item="15" maxOccurrence="n">HDMI.3</Connector>
+        <MixerMode>Fixed</MixerMode>
+        <Mute>Off</Mute>
+        <Name>HDMI input</Name>
+      </LocalInput>
+      <RemoteInput item="118" maxOccurrence="n">
+        <CallId>62</CallId>
+      </RemoteInput>
+    </Input>
+    <Microphones>
+      <Mute>Off</Mute>
+    </Microphones>
+    <Output>
+      <LocalOutput item="5" maxOccurrence="n">
+        <Channels>2</Channels>
+        <Connector item="16" maxOccurrence="n">Line.1</Connector>
+        <Connector item="17" maxOccurrence="n">Line.2</Connector>
+        <Connector item="18" maxOccurrence="n">Line.3</Connector>
+        <Connector item="19" maxOccurrence="n">Line.4</Connector>
+        <Connector item="20" maxOccurrence="n">HDMI.1</Connector>
+        <Input item="2" maxOccurrence="n">
+          <Gain>0</Gain>
+        </Input>
+        <Input item="3" maxOccurrence="n">
+          <Gain>0</Gain>
+        </Input>
+        <Input item="4" maxOccurrence="n">
+          <Gain>0</Gain>
+        </Input>
+        <Input item="118" maxOccurrence="n">
+          <Gain>0</Gain>
+        </Input>
+        <Loudspeaker>On</Loudspeaker>
+        <Name>Loudspeaker</Name>
+        <VolumeControlled>On</VolumeControlled>
+      </LocalOutput>
+      <LocalOutput item="6" maxOccurrence="n">
+        <Channels>2</Channels>
+        <Connector item="21" maxOccurrence="n">Line.5</Connector>
+        <Connector item="22" maxOccurrence="n">Line.6</Connector>
+        <Input item="1" maxOccurrence="n">
+          <Gain>0</Gain>
+        </Input>
+        <Input item="2" maxOccurrence="n">
+          <Gain>0</Gain>
+        </Input>
+        <Input item="4" maxOccurrence="n">
+          <Gain>0</Gain>
+        </Input>
+        <Input item="118" maxOccurrence="n">
+          <Gain>0</Gain>
+        </Input>
+        <Loudspeaker>Off</Loudspeaker>
+        <Name>Recorder</Name>
+        <VolumeControlled>Off</VolumeControlled>
+      </LocalOutput>
+      <RemoteOutput item="119" maxOccurrence="n">
+        <CallId>62</CallId>
+        <Input item="1" maxOccurrence="n">
+          <Gain>0</Gain>
+        </Input>
+        <Input item="3" maxOccurrence="n">
+          <Gain>0</Gain>
+        </Input>
+        <Input item="4" maxOccurrence="n">
+          <Gain>0</Gain>
+        </Input>
+      </RemoteOutput>
+    </Output>
+    <Volume>70</Volume>
+    <VolumeMute>Off</VolumeMute>
+  </Audio>
+  <Call item="62" maxOccurrence="n">
+    <AnswerState>Answered</AnswerState>
+    <CallType>Video</CallType>
+    <CallbackNumber>sip:2100000@DC1-A-VCCOND1-164.dvuadmin.net</CallbackNumber>
+    <DeviceType>MCU</DeviceType>
+    <Direction>Outgoing</Direction>
+    <DisplayName>2100000@DC1-A-VCCOND1-164.dvuadmin.net</DisplayName>
+    <Duration>381</Duration>
+    <Encryption>
+      <Type>AES-128</Type>
+    </Encryption>
+    <FacilityServiceId>0</FacilityServiceId>
+    <HoldReason>None</HoldReason>
+    <PlacedOnHold>False</PlacedOnHold>
+    <Protocol>SIP</Protocol>
+    <ReceiveCallRate>4096</ReceiveCallRate>
+    <RemoteNumber>2100000@DC1-A-VCCOND1-164.dvuadmin.net</RemoteNumber>
+    <Status>Connected</Status>
+    <TransmitCallRate>4096</TransmitCallRate>
+  </Call>
+  <CallDiagnostics item="2" maxOccurrence="n"/>
+  <CallDiagnostics item="3" maxOccurrence="n"/>
+  <CallDiagnostics item="4" maxOccurrence="n"/>
+  <CallDiagnostics item="5" maxOccurrence="n"/>
+  <CallDiagnostics item="6" maxOccurrence="n"/>
+  <CallDiagnostics item="7" maxOccurrence="n"/>
+  <CallDiagnostics item="8" maxOccurrence="n"/>
+  <CallDiagnostics item="9" maxOccurrence="n"/>
+  <CallDiagnostics item="10" maxOccurrence="n"/>
+  <CallDiagnostics item="11" maxOccurrence="n"/>
+  <CallDiagnostics item="12" maxOccurrence="n"/>
+  <CallDiagnostics item="13" maxOccurrence="n"/>
+  <CallDiagnostics item="14" maxOccurrence="n"/>
+  <CallDiagnostics item="15" maxOccurrence="n"/>
+  <CallDiagnostics item="16" maxOccurrence="n"/>
+  <CallDiagnostics item="17" maxOccurrence="n"/>
+  <CallDiagnostics item="18" maxOccurrence="n"/>
+  <CallDiagnostics item="19" maxOccurrence="n"/>
+  <CallDiagnostics item="20" maxOccurrence="n"/>
+  <CallDiagnostics item="21" maxOccurrence="n"/>
+  <CallDiagnostics item="22" maxOccurrence="n"/>
+  <CallDiagnostics item="23" maxOccurrence="n"/>
+  <CallDiagnostics item="24" maxOccurrence="n"/>
+  <CallDiagnostics item="25" maxOccurrence="n"/>
+  <CallDiagnostics item="26" maxOccurrence="n"/>
+  <CallDiagnostics item="27" maxOccurrence="n"/>
+  <CallDiagnostics item="28" maxOccurrence="n"/>
+  <CallDiagnostics item="29" maxOccurrence="n"/>
+  <CallDiagnostics item="30" maxOccurrence="n"/>
+  <CallDiagnostics item="31" maxOccurrence="n"/>
+  <CallDiagnostics item="32" maxOccurrence="n"/>
+  <CallDiagnostics item="33" maxOccurrence="n"/>
+  <CallDiagnostics item="34" maxOccurrence="n"/>
+  <CallDiagnostics item="35" maxOccurrence="n"/>
+  <CallDiagnostics item="36" maxOccurrence="n"/>
+  <CallDiagnostics item="37" maxOccurrence="n"/>
+  <CallDiagnostics item="38" maxOccurrence="n"/>
+  <CallDiagnostics item="39" maxOccurrence="n"/>
+  <CallDiagnostics item="40" maxOccurrence="n"/>
+  <CallDiagnostics item="41" maxOccurrence="n"/>
+  <CallDiagnostics item="42" maxOccurrence="n"/>
+  <CallDiagnostics item="43" maxOccurrence="n"/>
+  <CallDiagnostics item="44" maxOccurrence="n"/>
+  <CallDiagnostics item="45" maxOccurrence="n"/>
+  <CallDiagnostics item="46" maxOccurrence="n"/>
+  <CallDiagnostics item="47" maxOccurrence="n"/>
+  <CallDiagnostics item="48" maxOccurrence="n"/>
+  <CallDiagnostics item="49" maxOccurrence="n"/>
+  <CallDiagnostics item="50" maxOccurrence="n"/>
+  <CallDiagnostics item="51" maxOccurrence="n"/>
+  <CallDiagnostics item="52" maxOccurrence="n"/>
+  <CallDiagnostics item="53" maxOccurrence="n"/>
+  <CallDiagnostics item="54" maxOccurrence="n"/>
+  <CallDiagnostics item="55" maxOccurrence="n"/>
+  <CallDiagnostics item="56" maxOccurrence="n"/>
+  <CallDiagnostics item="57" maxOccurrence="n"/>
+  <CallDiagnostics item="58" maxOccurrence="n"/>
+  <CallDiagnostics item="59" maxOccurrence="n"/>
+  <CallDiagnostics item="60" maxOccurrence="n"/>
+  <CallDiagnostics item="61" maxOccurrence="n"/>
+  <Cameras>
+    <Camera item="1" maxOccurrence="n">
+      <Capabilities>
+        <Options>ptzf</Options>
+      </Capabilities>
+      <Connected>True</Connected>
+      <Flip>Off</Flip>
+      <MacAddress>18:8B:9D:D4:73:8C</MacAddress>
+      <Manufacturer>Cisco</Manufacturer>
+      <Model>Precision 60 Camera</Model>
+      <SerialNumber>FTT192804FZ</SerialNumber>
+      <SoftwareID>HC8.0.1.1e47efe, 2016-01-18</SoftwareID>
+    </Camera>
+    <Camera item="2" maxOccurrence="n">
+      <Capabilities>
+        <Options>ptzf</Options>
+      </Capabilities>
+      <Connected>True</Connected>
+      <Flip>Off</Flip>
+      <MacAddress>18:8B:9D:D4:97:08</MacAddress>
+      <Manufacturer>Cisco</Manufacturer>
+      <Model>Precision 60 Camera</Model>
+      <SerialNumber>FTT192804IH</SerialNumber>
+      <SoftwareID>HC8.0.1.1e47efe, 2016-01-18</SoftwareID>
+    </Camera>
+    <Camera item="3" maxOccurrence="n">
+      <Capabilities>
+        <Options></Options>
+      </Capabilities>
+      <Connected>False</Connected>
+      <MacAddress></MacAddress>
+      <Manufacturer></Manufacturer>
+      <Model></Model>
+      <SerialNumber></SerialNumber>
+      <SoftwareID></SoftwareID>
+    </Camera>
+    <Camera item="4" maxOccurrence="n">
+      <Capabilities>
+        <Options></Options>
+      </Capabilities>
+      <Connected>False</Connected>
+      <MacAddress></MacAddress>
+      <Manufacturer></Manufacturer>
+      <Model></Model>
+      <SerialNumber></SerialNumber>
+      <SoftwareID></SoftwareID>
+    </Camera>
+    <Camera item="5" maxOccurrence="n">
+      <Capabilities>
+        <Options></Options>
+      </Capabilities>
+      <Connected>False</Connected>
+      <MacAddress></MacAddress>
+      <Manufacturer></Manufacturer>
+      <Model></Model>
+      <SerialNumber></SerialNumber>
+      <SoftwareID></SoftwareID>
+    </Camera>
+    <Camera item="6" maxOccurrence="n">
+      <Capabilities>
+        <Options></Options>
+      </Capabilities>
+      <Connected>False</Connected>
+      <MacAddress></MacAddress>
+      <Manufacturer></Manufacturer>
+      <Model></Model>
+      <SerialNumber></SerialNumber>
+      <SoftwareID></SoftwareID>
+    </Camera>
+    <Camera item="7" maxOccurrence="n">
+      <Capabilities>
+        <Options></Options>
+      </Capabilities>
+      <Connected>False</Connected>
+      <MacAddress></MacAddress>
+      <Manufacturer></Manufacturer>
+      <Model></Model>
+      <SerialNumber></SerialNumber>
+      <SoftwareID></SoftwareID>
+    </Camera>
+    <SpeakerTrack>
+      <Availability>Available</Availability>
+      <LeftCamera>
+        <VideoInputConnector>1</VideoInputConnector>
+      </LeftCamera>
+      <RightCamera>
+        <VideoInputConnector>2</VideoInputConnector>
+      </RightCamera>
+      <Status>Active</Status>
+    </SpeakerTrack>
+  </Cameras>
+  <Capabilities>
+    <Conference>
+      <MaxActiveCalls>2</MaxActiveCalls>
+      <MaxAudioCalls>2</MaxAudioCalls>
+      <MaxCalls>7</MaxCalls>
+      <MaxVideoCalls>1</MaxVideoCalls>
+    </Conference>
+  </Capabilities>
+  <Conference>
+    <ActiveSpeaker>
+      <CallId>1</CallId>
+    </ActiveSpeaker>
+    <Call item="62" maxOccurrence="n">
+      <BookingId>15909</BookingId>
+      <Capabilities>
+        <FECC>
+          <Mode>On</Mode>
+          <NumberOfPresets>0</NumberOfPresets>
+          <NumberOfSources>1</NumberOfSources>
+          <Source item="1" maxOccurrence="n">
+            <Name>n/a</Name>
+            <Options>ptzf</Options>
+            <SourceId>1</SourceId>
+          </Source>
+        </FECC>
+        <FarendMessage>
+          <Mode>Off</Mode>
+        </FarendMessage>
+        <Hold>True</Hold>
+        <IxChannel>
+          <Status>Active</Status>
+        </IxChannel>
+        <Presentation>True</Presentation>
+      </Capabilities>
+      <Manufacturer>Tandberg</Manufacturer>
+      <MicrophonesMuted>False</MicrophonesMuted>
+      <SoftwareID>unknown (new?)</SoftwareID>
+    </Call>
+    <DoNotDisturb>Active</DoNotDisturb>
+    <Line item="1" maxOccurrence="n">
+      <Mode>Private</Mode>
+    </Line>
+    <Multipoint>
+      <Mode>CUCMMediaResourceGroupList</Mode>
+    </Multipoint>
+    <Presentation>
+      <CallId>62</CallId>
+      <Mode>Receiving</Mode>
+    </Presentation>
+    <SpeakerLock>
+      <CallId>0</CallId>
+      <Mode>Auto</Mode>
+    </SpeakerLock>
+  </Conference>
+  <GPIO>
+    <Pin item="1" maxOccurrence="n">
+      <State>High</State>
+    </Pin>
+    <Pin item="2" maxOccurrence="n">
+      <State>High</State>
+    </Pin>
+    <Pin item="3" maxOccurrence="n">
+      <State>High</State>
+    </Pin>
+    <Pin item="4" maxOccurrence="n">
+      <State>High</State>
+    </Pin>
+  </GPIO>
+  <H323>
+    <Gatekeeper>
+      <Address></Address>
+      <Port>0</Port>
+      <Reason></Reason>
+      <Status>Inactive</Status>
+    </Gatekeeper>
+    <Mode>
+      <Reason></Reason>
+      <Status>Disabled</Status>
+    </Mode>
+  </H323>
+  <HttpFeedback item="1" maxOccurrence="n">
+    <Expression item="1" maxOccurrence="n"></Expression>
+    <Expression item="2" maxOccurrence="n"></Expression>
+    <Expression item="3" maxOccurrence="n"></Expression>
+    <Expression item="4" maxOccurrence="n"></Expression>
+    <Expression item="5" maxOccurrence="n"></Expression>
+    <Expression item="6" maxOccurrence="n"></Expression>
+    <Expression item="7" maxOccurrence="n"></Expression>
+    <Expression item="8" maxOccurrence="n"></Expression>
+    <Expression item="9" maxOccurrence="n"></Expression>
+    <Expression item="10" maxOccurrence="n"></Expression>
+    <Expression item="11" maxOccurrence="n"></Expression>
+    <Expression item="12" maxOccurrence="n"></Expression>
+    <Expression item="13" maxOccurrence="n"></Expression>
+    <Expression item="14" maxOccurrence="n"></Expression>
+    <Expression item="15" maxOccurrence="n"></Expression>
+    <URL></URL>
+  </HttpFeedback>
+  <HttpFeedback item="2" maxOccurrence="n">
+    <Expression item="1" maxOccurrence="n"></Expression>
+    <Expression item="2" maxOccurrence="n"></Expression>
+    <Expression item="3" maxOccurrence="n"></Expression>
+    <Expression item="4" maxOccurrence="n"></Expression>
+    <Expression item="5" maxOccurrence="n"></Expression>
+    <Expression item="6" maxOccurrence="n"></Expression>
+    <Expression item="7" maxOccurrence="n"></Expression>
+    <Expression item="8" maxOccurrence="n"></Expression>
+    <Expression item="9" maxOccurrence="n"></Expression>
+    <Expression item="10" maxOccurrence="n"></Expression>
+    <Expression item="11" maxOccurrence="n"></Expression>
+    <Expression item="12" maxOccurrence="n"></Expression>
+    <Expression item="13" maxOccurrence="n"></Expression>
+    <Expression item="14" maxOccurrence="n"></Expression>
+    <Expression item="15" maxOccurrence="n"></Expression>
+    <URL></URL>
+  </HttpFeedback>
+  <HttpFeedback item="3" maxOccurrence="n">
+    <Expression item="1" maxOccurrence="n">/Status/Call[Status=&apos;Connected&apos;]</Expression>
+    <Expression item="2" maxOccurrence="n">/Status/H323/Gatekeeper</Expression>
+    <Expression item="3" maxOccurrence="n">/Status/SIP/Registration</Expression>
+    <Expression item="4" maxOccurrence="n">/Status/Network/Ethernet/Speed</Expression>
+    <Expression item="5" maxOccurrence="n">/Event/CallSuccessful</Expression>
+    <Expression item="6" maxOccurrence="n">/Event/Message/Prompt/Response</Expression>
+    <Expression item="7" maxOccurrence="n">/Event/CallDisconnect</Expression>
+    <Expression item="8" maxOccurrence="n"></Expression>
+    <Expression item="9" maxOccurrence="n"></Expression>
+    <Expression item="10" maxOccurrence="n"></Expression>
+    <Expression item="11" maxOccurrence="n"></Expression>
+    <Expression item="12" maxOccurrence="n"></Expression>
+    <Expression item="13" maxOccurrence="n"></Expression>
+    <Expression item="14" maxOccurrence="n"></Expression>
+    <Expression item="15" maxOccurrence="n"></Expression>
+    <URL>https://10.154.250.145/tms/public/feedback/code.aspx</URL>
+  </HttpFeedback>
+  <HttpFeedback item="4" maxOccurrence="n">
+    <Expression item="1" maxOccurrence="n"></Expression>
+    <Expression item="2" maxOccurrence="n"></Expression>
+    <Expression item="3" maxOccurrence="n"></Expression>
+    <Expression item="4" maxOccurrence="n"></Expression>
+    <Expression item="5" maxOccurrence="n"></Expression>
+    <Expression item="6" maxOccurrence="n"></Expression>
+    <Expression item="7" maxOccurrence="n"></Expression>
+    <Expression item="8" maxOccurrence="n"></Expression>
+    <Expression item="9" maxOccurrence="n"></Expression>
+    <Expression item="10" maxOccurrence="n"></Expression>
+    <Expression item="11" maxOccurrence="n"></Expression>
+    <Expression item="12" maxOccurrence="n"></Expression>
+    <Expression item="13" maxOccurrence="n"></Expression>
+    <Expression item="14" maxOccurrence="n"></Expression>
+    <Expression item="15" maxOccurrence="n"></Expression>
+    <URL></URL>
+  </HttpFeedback>
+  <Network item="1" maxOccurrence="n">
+    <CDP>
+      <Address>10.254.128.101</Address>
+      <Capabilities>0x0028</Capabilities>
+      <DeviceId>CMC-1E-SW01</DeviceId>
+      <Duplex>Full</Duplex>
+      <Platform>cisco WS-C2960X-48FPS-L</Platform>
+      <PortID>GigabitEthernet3/0/33</PortID>
+      <PrimaryMgmtAddress>10.254.128.101</PrimaryMgmtAddress>
+      <SysName></SysName>
+      <SysObjectID></SysObjectID>
+      <VTPMgmtDomain>Commerce</VTPMgmtDomain>
+      <Version>Cisco IOS Software, C2960X Software (C2960X-UNIVERSALK9-M), Version 15.2(3)E1, RELEASE SOFTWARE (fc3)*Technical Support: http://www.cisco.com/techsupport*Copyright (c) 1986-2015 by Cisco Systems, Inc.*Compiled Tue 28-Apr-15 01:28 by prod_rel_team</Version>
+      <VoIPApplianceVlanID></VoIPApplianceVlanID>
+    </CDP>
+    <DNS>
+      <Domain>
+        <Name>dvuadmin.net</Name>
+      </Domain>
+      <Server item="1" maxOccurrence="n">
+        <Address>10.154.239.58</Address>
+      </Server>
+      <Server item="2" maxOccurrence="n">
+        <Address>10.154.239.59</Address>
+      </Server>
+      <Server item="3" maxOccurrence="n">
+        <Address></Address>
+      </Server>
+      <Server item="4" maxOccurrence="n">
+        <Address></Address>
+      </Server>
+      <Server item="5" maxOccurrence="n">
+        <Address></Address>
+      </Server>
+    </DNS>
+    <Ethernet>
+      <MacAddress>80:E0:1D:F7:80:10</MacAddress>
+      <Speed>1000full</Speed>
+    </Ethernet>
+    <IPv4>
+      <Address>10.254.180.166</Address>
+      <Gateway>10.254.180.10</Gateway>
+      <SubnetMask>255.255.255.0</SubnetMask>
+    </IPv4>
+    <IPv6>
+      <Address></Address>
+      <Gateway></Gateway>
+    </IPv6>
+    <VLAN>
+      <Voice>
+        <VlanId>Off</VlanId>
+      </Voice>
+    </VLAN>
+  </Network>
+  <NetworkServices>
+    <NTP>
+      <CurrentAddress>10.154.2.2</CurrentAddress>
+      <Server item="1" maxOccurrence="n">
+        <Address>10.154.2.2</Address>
+      </Server>
+      <Status>Synced</Status>
+    </NTP>
+  </NetworkServices>
+  <Peripherals>
+    <ConnectedDevice item="1001" maxOccurrence="n">
+      <HardwareInfo>102310-1</HardwareInfo>
+      <ID>88:43:e1:c6:ae:12</ID>
+      <Name>Cisco TelePresence Touch</Name>
+      <SoftwareInfo>TI8.0.1 1e47efe 2016-01-18</SoftwareInfo>
+      <Status>Connected</Status>
+      <Type>TouchPanel</Type>
+      <UpgradeStatus>None</UpgradeStatus>
+    </ConnectedDevice>
+    <ConnectedDevice item="1045" maxOccurrence="n">
+      <HardwareInfo></HardwareInfo>
+      <ID>18:8B:9D:D4:97:08</ID>
+      <Name>Precision 60 Camera</Name>
+      <SoftwareInfo>HC8.0.1.1e47efe</SoftwareInfo>
+      <Status>Connected</Status>
+      <Type>Camera</Type>
+      <UpgradeStatus>None</UpgradeStatus>
+    </ConnectedDevice>
+    <ConnectedDevice item="1046" maxOccurrence="n">
+      <HardwareInfo></HardwareInfo>
+      <ID>18:8B:9D:D4:73:8C</ID>
+      <Name>Precision 60 Camera</Name>
+      <SoftwareInfo>HC8.0.1.1e47efe</SoftwareInfo>
+      <Status>Connected</Status>
+      <Type>Camera</Type>
+      <UpgradeStatus>None</UpgradeStatus>
+    </ConnectedDevice>
+    <ConnectedDevice item="1066" maxOccurrence="n">
+      <HardwareInfo></HardwareInfo>
+      <ID>DC:EB:94:B4:0F:B8</ID>
+      <Name>SpeakerTrack 60</Name>
+      <SoftwareInfo>MT8.0.1.1e47efe</SoftwareInfo>
+      <Status>Connected</Status>
+      <Type>SpeakerTracker</Type>
+      <UpgradeStatus>None</UpgradeStatus>
+    </ConnectedDevice>
+  </Peripherals>
+  <Provisioning>
+    <Software>
+      <Current>
+        <CompletedAt></CompletedAt>
+        <URL>http://dc1-a-vccucm1.dvuadmin.net:6970/s52020ce8_0_1.pkg</URL>
+        <VersionId>s52020ce8_0_1.pkg</VersionId>
+      </Current>
+      <UpgradeStatus>
+        <LastChange>2016-01-27T20:59:28Z</LastChange>
+        <Message></Message>
+        <Phase>None</Phase>
+        <SessionId></SessionId>
+        <Status>None</Status>
+        <URL></URL>
+        <VersionId></VersionId>
+      </UpgradeStatus>
+    </Software>
+    <Status>Provisioned</Status>
+  </Provisioning>
+  <Proximity>
+    <Services>
+      <Availability>Available</Availability>
+    </Services>
+  </Proximity>
+  <SIP>
+    <AlternateURI>
+      <Primary>
+        <URI>2991063@ir.com</URI>
+      </Primary>
+    </AlternateURI>
+    <Authentication>Off</Authentication>
+    <CallForward>
+      <DisplayName></DisplayName>
+      <Mode>Off</Mode>
+      <URI></URI>
+    </CallForward>
+    <Mailbox>
+      <MessagesWaiting>0</MessagesWaiting>
+      <URI></URI>
+    </Mailbox>
+    <Proxy item="1" maxOccurrence="n">
+      <Address>10.154.16.152</Address>
+      <Status>Active</Status>
+    </Proxy>
+    <Registration item="1" maxOccurrence="n">
+      <Reason></Reason>
+      <Status>Registered</Status>
+      <URI>2991063@ir.com</URI>
+    </Registration>
+    <Secure>True</Secure>
+    <Verified>True</Verified>
+  </SIP>
+  <Security>
+    <FIPS>
+      <Mode>Off</Mode>
+    </FIPS>
+    <Persistency>
+      <CallHistory>Persistent</CallHistory>
+      <Configurations>Persistent</Configurations>
+      <DHCP>Persistent</DHCP>
+      <InternalLogging>Persistent</InternalLogging>
+      <LocalPhonebook>Persistent</LocalPhonebook>
+    </Persistency>
+  </Security>
+  <Standby>
+    <State>Off</State>
+  </Standby>
+  <SystemUnit>
+    <Hardware>
+      <Module>
+        <SerialNumber>FTT192501W7</SerialNumber>
+      </Module>
+      <Monitoring>
+        <Fan item="1" maxOccurrence="n">
+          <Status>2550 rpm</Status>
+        </Fan>
+        <Fan item="2" maxOccurrence="n">
+          <Status>2550 rpm</Status>
+        </Fan>
+        <Fan item="3" maxOccurrence="n">
+          <Status>2520 rpm</Status>
+        </Fan>
+        <Fan item="4" maxOccurrence="n">
+          <Status>2550 rpm</Status>
+        </Fan>
+        <Fan item="5" maxOccurrence="n">
+          <Status>2550 rpm</Status>
+        </Fan>
+      </Monitoring>
+      <Temperature>66.7</Temperature>
+    </Hardware>
+    <ProductId>Cisco TelePresence SX80</ProductId>
+    <ProductPlatform>SX80</ProductPlatform>
+    <ProductType>Cisco Codec</ProductType>
+    <Software>
+      <Name>s52020</Name>
+      <OptionKeys>
+        <Encryption>True</Encryption>
+        <MultiSite>False</MultiSite>
+        <PremiumResolution>True</PremiumResolution>
+        <RemoteMonitoring>True</RemoteMonitoring>
+      </OptionKeys>
+      <ReleaseDate>2016-01-18</ReleaseDate>
+      <Version>ce8.0.1.1e47efe</Version>
+    </Software>
+    <Diagnostics item="1">
+      <LastRun item="1">2015-07-29T00:40:01Z</LastRun>
+      <Message item="1">
+        <Description item="1">Microphone is not connected any more, check the connection.</Description>
+        <Level item="1">Error</Level>
+        <References item="1"></References>
+        <Type item="1">MicrophoneDisconnected</Type>
+      </Message>
+      <Message item="5">
+        <Description item="1">NTP is not correctly configured. If the system clock is not correctly configured, certain features (e.g. encryption) may fail.</Description>
+        <Level item="1">Warning</Level>
+        <References item="1">status=Discarded</References>
+        <Type item="1">NTPStatus</Type>
+      </Message>
+    </Diagnostics>
+    <State>
+      <NumberOfActiveCalls>1</NumberOfActiveCalls>
+      <NumberOfInProgressCalls>0</NumberOfInProgressCalls>
+      <NumberOfSuspendedCalls>0</NumberOfSuspendedCalls>
+    </State>
+    <Uptime>1390596</Uptime>
+  </SystemUnit>
+  <Time>
+    <SystemTime>2016-03-10T16:56:31Z</SystemTime>
+  </Time>
+  <UserInterface>
+    <ContactInfo>
+      <ContactMethod item="1" maxOccurrence="n">
+        <Number>2991063@ir.com</Number>
+      </ContactMethod>
+      <ContactMethod item="2" maxOccurrence="n">
+        <Number>2991063</Number>
+      </ContactMethod>
+      <Name>CMC L 630-645-1063</Name>
+    </ContactInfo>
+  </UserInterface>
+  <Video>
+    <ActiveSpeaker>
+      <PIPPosition>UpperCenter</PIPPosition>
+    </ActiveSpeaker>
+    <Input>
+      <Connector item="1" maxOccurrence="n">
+        <Connected>True</Connected>
+        <SignalState>OK</SignalState>
+        <SourceId>1</SourceId>
+        <Type>HDMI</Type>
+      </Connector>
+      <Connector item="2" maxOccurrence="n">
+        <Connected>True</Connected>
+        <SignalState>OK</SignalState>
+        <SourceId>2</SourceId>
+        <Type>HDMI</Type>
+      </Connector>
+      <Connector item="3" maxOccurrence="n">
+        <Connected>True</Connected>
+        <SignalState>OK</SignalState>
+        <SourceId>3</SourceId>
+        <Type>HDMI</Type>
+      </Connector>
+      <Connector item="4" maxOccurrence="n">
+        <Connected>False</Connected>
+        <SignalState>Unknown</SignalState>
+        <SourceId>4</SourceId>
+        <Type>DVI</Type>
+      </Connector>
+      <Connector item="5" maxOccurrence="n">
+        <Connected>True</Connected>
+        <SignalState>OK</SignalState>
+        <SourceId>4</SourceId>
+        <Type>Composite</Type>
+      </Connector>
+      <MainVideoSource>2</MainVideoSource>
+      <Source item="1" maxOccurrence="n">
+        <ConnectorId>1</ConnectorId>
+        <FormatStatus>Ok</FormatStatus>
+        <FormatType>Digital</FormatType>
+        <MediaChannelId>109</MediaChannelId>
+        <Resolution>
+          <Height>1080</Height>
+          <RefreshRate>60</RefreshRate>
+          <Width>1920</Width>
+        </Resolution>
+      </Source>
+      <Source item="2" maxOccurrence="n">
+        <ConnectorId>2</ConnectorId>
+        <FormatStatus>Ok</FormatStatus>
+        <FormatType>Digital</FormatType>
+        <MediaChannelId>110</MediaChannelId>
+        <Resolution>
+          <Height>1080</Height>
+          <RefreshRate>60</RefreshRate>
+          <Width>1920</Width>
+        </Resolution>
+      </Source>
+      <Source item="3" maxOccurrence="n">
+        <ConnectorId>3</ConnectorId>
+        <FormatStatus>NotFound</FormatStatus>
+        <FormatType>Unknown</FormatType>
+        <MediaChannelId>111</MediaChannelId>
+        <Resolution>
+          <Height>0</Height>
+          <RefreshRate>0</RefreshRate>
+          <Width>0</Width>
+        </Resolution>
+      </Source>
+      <Source item="4" maxOccurrence="n">
+        <ConnectorId>4</ConnectorId>
+        <FormatStatus>NotFound</FormatStatus>
+        <FormatType>Unknown</FormatType>
+        <MediaChannelId>112</MediaChannelId>
+        <Resolution>
+          <Height>0</Height>
+          <RefreshRate>0</RefreshRate>
+          <Width>0</Width>
+        </Resolution>
+      </Source>
+    </Input>
+    <Monitors>Dual</Monitors>
+    <Output>
+      <Connector item="1" maxOccurrence="n">
+        <Connected>True</Connected>
+        <ConnectedDevice>
+          <Name>SHARP HDMI</Name>
+          <PreferredFormat>1920x1080@60Hz</PreferredFormat>
+        </ConnectedDevice>
+        <MonitorRole>First</MonitorRole>
+        <Resolution>
+          <Height>1080</Height>
+          <RefreshRate>60</RefreshRate>
+          <Width>1920</Width>
+        </Resolution>
+        <Type>HDMI</Type>
+      </Connector>
+      <Connector item="2" maxOccurrence="n">
+        <Connected>True</Connected>
+        <ConnectedDevice>
+          <Name>SHARP HDMI</Name>
+          <PreferredFormat>1920x1080@60Hz</PreferredFormat>
+        </ConnectedDevice>
+        <MonitorRole>Second</MonitorRole>
+        <Resolution>
+          <Height>1080</Height>
+          <RefreshRate>60</RefreshRate>
+          <Width>1920</Width>
+        </Resolution>
+        <Type>HDMI</Type>
+      </Connector>
+      <Connector item="3" maxOccurrence="n">
+        <Connected>False</Connected>
+        <ConnectedDevice>
+          <Name></Name>
+          <PreferredFormat></PreferredFormat>
+        </ConnectedDevice>
+        <MonitorRole>First</MonitorRole>
+        <Resolution>
+          <Height>720</Height>
+          <RefreshRate>60</RefreshRate>
+          <Width>1280</Width>
+        </Resolution>
+        <Type>DVI</Type>
+      </Connector>
+    </Output>
+    <Presentation>
+      <PIPPosition>CenterLeft</PIPPosition>
+    </Presentation>
+    <Selfview>
+      <FullscreenMode>Off</FullscreenMode>
+      <Mode>Off</Mode>
+      <OnMonitorRole>First</OnMonitorRole>
+      <PIPPosition>LowerRight</PIPPosition>
+    </Selfview>
+  </Video>
+</Status>
